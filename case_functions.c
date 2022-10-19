@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_character - prints character
- * @arg: va_list parameter
+ * @arg: va_list parameter.
  * Description: print character
  * Return: 1
  */
@@ -15,8 +15,8 @@ int print_character(va_list arg)
 	return (1);
 }
 /**
- * print_sign - print sign
- * @arg: va_list parameter
+ * print_sign - print sign,
+ * @arg: va_list parameter.
  * @base: base 10, 8, 16, 2 etc..
  * Description: print numbers and signed
  * Return: num of characters
@@ -43,7 +43,7 @@ int print_sign(va_list arg, int base)
  * @arg: va_list parameter
  * @base: base 10, 8, 16 etc..
  * Description: print numbers without signed
- * Return: num of characters
+ * Return: num of characters.
  */
 int print_unsign(va_list arg, int base)
 {

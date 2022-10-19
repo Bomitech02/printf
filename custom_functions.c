@@ -3,20 +3,22 @@
 
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * _putchar - writes the character c to stdout.
+ * @c: The character to prin.t
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
+
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
+
 /**
  *_strlen - reset number
  *Description: This function return a length for some string
- *@s: pointer char
+ *@s: pointer char.
  *Return: int length
  */
 int _strlen(char *s)
@@ -29,12 +31,14 @@ int _strlen(char *s)
 	}
 	return (len);
 }
+
 /**
  *_puts - print string
  *Description: print some string
  *@str: pointer char
  *Return: Nothing
  */
+
 void _puts(char *str)
 {
 	int i;
@@ -44,6 +48,7 @@ void _puts(char *str)
 		_putchar(str[i]);
 	}
 }
+
 /**
  *convert_to - convert numbers
  *Description: This function convert numbers to other formats
