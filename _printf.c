@@ -101,7 +101,7 @@ int check_percent(int *flag, char aux)
 
 /**
  * call_function_manager - call function manager
- *@aux: character parameter
+ *@aux: character paramete
  *@arg: va_list arg
  *Description: This function call function manager
  *Return: num of characteres printed
