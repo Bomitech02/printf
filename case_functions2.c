@@ -54,10 +54,11 @@ int print_ptr(va_list arg)
 }
 
 /**
- * print_rot13 - prints a string using rot13
- * @arg: list of arguments from _printf
- * Return: length of the printed string
+ * print_rot13 - prints a string using rot13.
+ * @arg: list of arguments from _printf.
+ * Return: length of the printed string.
  */
+
 int print_rot13(va_list arg)
 {
 	register short i, j;
@@ -90,6 +91,7 @@ int print_rot13(va_list arg)
  * if a flag is passed to _printf
  * Return: length of the printed string
  */
+
 int print_rev(va_list arg)
 {
 	int i = 0;

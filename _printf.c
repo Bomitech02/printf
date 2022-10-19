@@ -5,6 +5,7 @@
  *Description: this functions implement some functions of printf
  *Return: num of characteres printed
  */
+
 int _printf(const char *format, ...)
 {
 	const char *string;
@@ -22,6 +23,7 @@ int _printf(const char *format, ...)
 	va_end(arg);
 	return (cont);
 }
+
 /**
  *loop_format - loop format
  *@arg: va_list arg
@@ -29,6 +31,7 @@ int _printf(const char *format, ...)
  *Description: This function make loop tp string pointer
  *Return: num of characteres printed
  */
+
 int loop_format(va_list arg, const char *string)
 {
 	int i = 0, flag = 0, cont_fm = 0, cont = 0, check_per = 0;
@@ -72,13 +75,15 @@ int loop_format(va_list arg, const char *string)
 	}
 	return (cont);
 }
+
 /**
  * check_percent - call function manager
- *@flag: value by reference
- *@aux: character
+ *@flag: value by reference.
+ *@aux: character.
  *Description: This function print % pear
  *Return: 1 if % is printed
  */
+
 int check_percent(int *flag, char aux)
 {
 	int tmp_flag;
